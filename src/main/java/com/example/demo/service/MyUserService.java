@@ -2,7 +2,6 @@ package com.example.demo.service;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -15,6 +14,7 @@ import com.example.demo.entity.Users;
 
 public class MyUserService implements UserDetails {
 
+	private static final long serialVersionUID = 1L;
 	private Users users;
 
 	public MyUserService(Users users) {

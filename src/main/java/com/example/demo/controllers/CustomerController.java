@@ -16,8 +16,8 @@ import com.example.demo.entity.Customer;
 public class CustomerController {
 
     final private List<Customer> customers = List.of(
-        Customer.builder().id("001").name("Trần Diễm Quỳnh").email("diemquynhspkt@gmail.com").build(),
-        Customer.builder().id("002").name("Diễm Quỳnh").email("diemquynh@gmail.com").build()
+        Customer.builder().id("001").name("TranTheTrung").email("thetrungspkt@gmail.com").build(),
+        Customer.builder().id("002").name("TheTrung").email("thetrung@gmail.com").build()
     );
 
     @GetMapping("/hello")
